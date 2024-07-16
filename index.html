@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Silvia Noronha | Arquitetura</title>
+</head>
+<body>
+    <header id="header"><!--NavBar - Início-->
+        <div class="container">
+            <div class="flex">
+                <nav>
+                    <ul>
+                        <li><a href="./index.html#inicio">início</a></li>
+                        <li><a href="./index.html#projetos">projetos</a></li>
+                        <li><a href="./index.html#sobre">sobre</a></li>
+                        <li><a href="./index.html#contatos">contatos</a></li>
+                    </ul>
+                </nav>
+            </div><!--Flex-->
+
+        </div><!--Container do NavBar-->
+    </header><!--NavBar - Fim-->
+    <main>
+        <section class="hero" id="inicio">
+            <img class = "hero__background" src="fotos/hero-background.jpeg"></img>
+            <div class="hero__foreground">
+                <h1 class="hero__foreground-title">Silvia Noronha</h1>
+                <p class="hero__foreground-text">Arquitetando seu sonho</p>
+            </div>
+        </section>
+        <section class="section" id="projetos">
+            <h2 class="projetos__title">Projetos</h2>
+            <div class="gallery">
+                <div class="gallery__top">   
+                    <span class="gallery__img-wrapper">
+                        <a href="">
+                            <img class="gallery__img" class="img01" src="fotos/projeto1.jpg" alt="">
+                            <p>Casa com piscina - Petrópolis</p>
+                        </a>
+                    </span>
+                    <span class="gallery__img-wrapper">
+                        <a href="">
+                            <img class="gallery__img" src="fotos/projeto2.jpg" alt="">
+                            <p>Casa moderna - Miami</p>
+                        </a>
+                    </span>
+                </div>
+                <div class="gallery__bottom">
+                    <span class="gallery__img-wrapper">
+                        <a href="">
+                            <img class="gallery__img" src="fotos/projeto3.jpg" alt="">
+                            <p>Cozinha elegante - São Paulo</p>
+                        </a>
+                    </span>
+                    <span class="gallery__img-wrapper">
+                        <a href="">
+                            <img class="gallery__img" src="fotos/projeto4.jpg" alt="">
+                            <p>Área externa - Rio de Janeiro</p>
+                        </a>
+                    </span>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="sobre">
+            <h2 class = "sobre__title">Sobre mim</h2>
+            <img class="section__img-inline" src="fotos/sil-perfil.png" alt="Foto de Silvia Noronha">
+            <p class="section__text-inline">
+                Silvia Noronha, estudante de Arquitetura e Urbanismo.<br><br>Mesmo em fase de formação, tenho me dedicado a desenvolver projetos de interiores que transcendem o comum, imbuídos de significado e capazes de transformar a percepção dos meus clientes sobre seus lares. Acredito firmemente que é possível transformar sonhos em realidade, criando ambientes que refletem a personalidade e as necessidades de cada indivíduo. Além disso, minha formação em Ciências Humanas enriquece minha abordagem, permitindo-me considerar aspectos psicológicos e sociais nos meus projetos. Com uma constante busca por conhecimento e inovação, estou comprometida a entregar projetos únicos e surpreendentes, que proporcionem uma nova forma de viver e apreciar o espaço doméstico.
+            </p>
+        </section>
+        <section class="section" id="contatos">
+            <h2 class="contatos__title">Contatos</h2>
+            <div class="contatos__outer-div">
+                <div class="contatos__inner-div" id="div1">
+                    <h3>Vamos conversar?</h3>
+                    <p><a href="https://wa.me/5524981141064" target="_blank">Whatsapp</a></p>
+                    <h3>Siga-me</h3>
+                    <p><a href="https://www.instagram.com/sil_noronha/" target="_blank">Instagram</a></p>
+                </div>
+                <div class="contatos__inner-div">   
+                    <h3>Informações de contato</h3>
+                    <p>Silvia Noronha</p>
+                    <p>(24) 98114-1064</p>
+                    <p>seuemailaqui@gmail.com</p>
+                </div>
+                <div class="contatos__inner-div">
+                    <h3>Endereço</h3>
+                    <p>Petrópolis - RJ</p>
+                    <p>Juiz de Fora - MG</p>
+                </div>
+            </div>
+            
+        </section>
+    </main>
+    <footer class = "footer">
+        Made with
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="#f64348" stroke="#f64348" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+        </svg>
+        by
+        <a href="https://github.com/BernardoCerqueira" target="_blank">@BernardoCerqueira</a>
+    </footer>
+    <script src="navbar.js"></script> <!--Script para o NavBAr-->
+</body>
+</html>
