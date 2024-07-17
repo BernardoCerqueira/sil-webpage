@@ -57,16 +57,18 @@ header{
     backdrop-filter: blur(10px); /* Efeito de desfoque */
     -webkit-backdrop-filter: blur(10px); /* Efeito de desfoque para navegadores com prefixo */
     width: 100%;
-    padding: 2rem 4%;
+    padding: 1.5rem 4% 2rem 4%;
     position: fixed; /*Deixa o NavBar fixo*/
     top: 0;
     left: 0;
     z-index: 5;
-    transition: all 0.5s ease-in;
+    transition: all 0.5s;
+    border-top: 0.5rem solid transparent;
 }
 
 header.rolagem{
     padding: 2rem 4%;
+    border-top: 0.5rem solid var(--color-gold);
 }
 
 header a{
@@ -120,10 +122,18 @@ header ul li{
     font-weight: 500;
 }
 
+.hero__foreground-title span{
+    color: var(--color-gold);
+    font-weight: 600;
+    text-shadow: 5px 5px 5px var(--color-background);
+}
+
 .hero__foreground-text{
     font-size: 2rem;
     font-weight: 300;
-    letter-spacing: 0.9rem;
+    letter-spacing: 1.1rem;
+    margin: auto;
+    padding-left: 1.1rem;
 }
 
 .gallery{
@@ -134,6 +144,7 @@ header ul li{
 
 .gallery__img{
     width: 40rem;
+    height: 26.68rem;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
