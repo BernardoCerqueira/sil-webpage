@@ -1,3 +1,5 @@
+/*Configurações gerais*/
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -37,6 +39,11 @@ p{
     font-size: 1.25rem;
     margin: auto 1rem;
     text-align: center;
+}
+
+.section{
+    margin: auto 5rem;
+    padding-top: 2rem;
 }
 
 /*NavBar - Início*/
@@ -89,12 +96,7 @@ header ul li{
     margin: 0 2.5rem;
 }
 
-/*NavBar - Fim*/
-
-.section{
-    margin: auto 5rem;
-    padding-top: 2rem;
-}
+/*Hero*/
 
 .hero{
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), var(--color-background));
@@ -136,6 +138,8 @@ header ul li{
     padding-left: 1.1rem;
 }
 
+/*Galeria - Projetos*/
+
 .gallery{
     overflow: hidden;
     width: 100%;
@@ -169,6 +173,8 @@ header ul li{
     font-weight: 200;
 }
 
+/*Sobre mim*/
+
 #sobre{
     overflow: hidden;
     margin: auto;
@@ -189,6 +195,8 @@ header ul li{
     text-align: left;
     padding-right: 5rem;
 }
+
+/*Contatos*/
 
 .contatos__outer-div{
     margin-top: 2rem;
@@ -237,6 +245,8 @@ header ul li{
 h3{
     font-size: 1.4rem;
 }
+
+/*Rodapé*/
 
 .footer{
     margin-top: 4rem;
